@@ -1,0 +1,107 @@
+* {
+box-sizing: border-box;
+
+}
+
+body {
+    display:flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 100vh;
+    margin:0;
+    flex-direction: column;
+}
+header {
+    display:flex;
+    padding:13px;
+    background-color: rgb(190, 193, 184);
+    flex-direction: column;
+   
+}
+
+.navlist{
+    border-style: dashed;
+    padding:12px;
+     font-size: larger;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     
+     }
+
+.navitem{
+   display:inline;
+
+}
+ nav {
+font-size: medium;
+font-family: 'Times New Roman', Times, serif;
+font-size: larger;
+background-color: coral;
+
+}
+
+.aboutm {
+    text-align:center;
+     text-justify: auto;
+     font-size: larger;
+    font-style: italic;
+    padding-bottom: 100px;
+    color: white;
+    }
+ 
+
+.aboutme {
+    margin:15px;
+    background-color: brown;
+    
+    
+
+}
+
+.row {
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    width:100%;
+   
+}
+
+.column {
+    display:flex;
+    flex-direction: column;
+    flex-basis:100%;
+    flex:1;
+}
+
+.first-column {
+    background-color: blueviolet;
+    height:450px;
+    margin:10px;
+    width:max-content;
+    
+}
+
+.green-column {
+    flex-wrap: wrap;
+    background-color: pink;
+    height:450px;
+    margin:10px;
+    width: 750px;
+
+
+}
+
+.mywork{
+ writing-mode: vertical-lr;
+ padding-top: 15px;
+
+}
+
+ footer {
+    background-color: rgb(51, 51, 144);
+      
+        text-align: center;
+        padding: 10px;
+      }
+    
+
+ 
+
